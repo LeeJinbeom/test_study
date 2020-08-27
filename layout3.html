@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <title>실습3</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
+            
+            body, html, p {
+                margin: 0;
+                padding: 0;               
+            }           
+
+            body {
+                background-image: url('images/background_big.jpg');
+                color: white;
+            }
+
+            #container {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-left: -450px;
+                margin-top: -200px;
+                width: 900px;
+                font-weight: 200;                
+                font-family: 'Noto Sans KR', sans-serif;
+            }
+
+            #title, #banner {
+                text-align: center;              
+            }
+
+            #title {
+                font-size: 8px;
+                font-weight: 400;
+            }
+
+            #banner {
+                margin-top: 10px;
+                font-size: 23px;
+                font-weight: 900;
+            }
+
+            #time {
+                overflow: hidden;
+                margin: 40px auto 0px auto;
+                width: 400px;
+            }
+
+            #time > div {
+                float: left;
+                margin: 0 20px;
+            }
+
+            #time > div > div:nth-child(1) {
+                font-size: 30px;
+                font-weight: 600;
+            }
+
+            #time > div > div:nth-child(2) {
+                font-size: 12px;
+                font-weight: 400;
+            }
+
+            #images {
+                margin-top: 80px;
+                clear: both;
+            }
+
+            #images img{
+                margin: 0 30px;
+                float: left;
+            }
+        </style>
+    </head>    
+    <body>
+        <div id="container">
+            <div id="title">
+                STAY TUNED
+            </div>
+            <div id="banner">
+                New Website<br/>
+                Lunching soon
+            </div>
+            <div id="time">
+                <div>
+                    <div>
+                        00
+                    </div>
+                    <div>
+                        Weeks
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        00
+                    </div>
+                    <div>
+                        Weeks
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        00
+                    </div>
+                    <div>
+                        Weeks
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        00
+                    </div>
+                    <div>
+                        Weeks
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        00
+                    </div>
+                    <div>
+                        Weeks
+                    </div>
+                </div>   
+            </div>
+            <div id="images">
+                <img src="images/icon_1.png"/>
+                <img src="images/icon_2.png"/>
+                <img src="images/icon_3.png"/>
+                <img src="images/icon_4.png"/>
+                <img src="images/icon_5.png"/>
+            </div>
+        </div>
+    </body>
+</html>
