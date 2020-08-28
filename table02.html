@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <title>테이블</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+            }
+
+            #my-table {
+                font-size: 12px;
+                width: 800px;
+                border-collapse: collapse;
+            }
+
+            #my-table thead {
+                text-align: center;
+                font-weight: 600;                             
+            }
+
+            #my-table tr td {
+                border-bottom: 1px solid rgb(195, 195, 195);
+                line-height: 25px;  
+            }
+
+            #my-table tbody tr:nth-child(2n + 1) {
+                background-color: rgb(228, 228, 228);                
+            }            
+
+            #my-table tbody tr:nth-child(1) {
+                font-weight: 600;    
+            }
+
+            #my-table tbody {
+                text-align: center;
+            }
+
+            #my-table tbody tr td:first-child {
+                text-align: left;
+                padding: 0 10px;
+            }
+
+            #my-table tbody tr td:last-child {
+                text-align: right;
+                padding: 0 10px;
+            }
+
+            
+        </style>
+    </head>
+    <body>
+        <table id="my-table">
+            <thead>
+                <tr>
+                    <td>이름</td>
+                    <td>방문횟수</td>
+                    <td>클릭횟수</td>
+                    <td>방문시간</td>
+                    <td>구입금액</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>전체</td>
+                    <td>400</td>
+                    <td>305</td>
+                    <td>53:21</td>
+                    <td>5,223,112원</td>
+                </tr>
+                <tr>
+                    <td>홍길동</td>
+                    <td>30</td>
+                    <td>34</td>
+                    <td>12:32</td>
+                    <td>1,232,123원</td>
+                </tr>
+                <tr>
+                    <td>이진범</td>
+                    <td>43</td>
+                    <td>12</td>
+                    <td>15:32</td>
+                    <td>1,344,341원</td>
+                </tr>
+                <tr>
+                    <td>이몽룡</td>
+                    <td>23</td>
+                    <td>43</td>
+                    <td>32:22</td>
+                    <td>2,232,123원</td>
+                </tr>
+                <tr>
+                    <td>홍길동</td>
+                    <td>30</td>
+                    <td>34</td>
+                    <td>12:32</td>
+                    <td>1,232,123원</td>
+                </tr>
+                <tr>
+                    <td>이진범</td>
+                    <td>43</td>
+                    <td>12</td>
+                    <td>15:32</td>
+                    <td>1,344,341원</td>
+                </tr>
+                <tr>
+                    <td>이몽룡</td>
+                    <td>23</td>
+                    <td>43</td>
+                    <td>32:22</td>
+                    <td>2,232,123원</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
